@@ -1,6 +1,10 @@
+# download_start_date: 1 year before train_start for beta windows to warm-up
+# train_end_date: 21 trading days before backtest_start_date to avoid training label leakage
+
+download_start_date: "2016-01-01"
 train_start_date: "2017-01-01"
-train_end_date: "2021-12-31"
-backtest_start_date: "2022-01-01"
+train_end_date: "2022-11-25"
+backtest_start_date: "2023-01-01"
 backtest_end_date: "2025-12-31"
 
 init_cash: 20000000

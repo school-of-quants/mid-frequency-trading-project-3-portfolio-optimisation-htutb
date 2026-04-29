@@ -5,7 +5,9 @@ from equity_project.src.train import train
 
 def main():
     get_data()
+    print('Data downloaded and processed.')
     train()
+    print('Model trained and saved.')
     run_backtest()
 
 
